@@ -20,6 +20,10 @@ El **cifrado César** es un método de cifrado por sustitución en el que cada l
 
 Este script también permite descifrar un mensaje cifrado si conoces el valor del desplazamiento original.
 
+📦 Requisitos
+Python 3.x
+
+No se necesitan librerías externas.
 ---
 
 ## 💻 Ejemplo de uso
