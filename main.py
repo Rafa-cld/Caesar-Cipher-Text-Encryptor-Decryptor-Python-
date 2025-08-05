@@ -20,15 +20,15 @@ text = input("Write a text: ")
 
 # Validación del número (1-25)
 while True:
-    num = input("Enter a shift amount (1-25): ")
+    num = input("Enter a number between 1 and 25: ")
     try:
         number = int(num)
         if 1 <= number <= 25:
             break
         else:
-            print("El número no está en el rango de 1 a 25. Intenta de nuevo.")
+            print("The number is not in the range 1 to 25. Please try again.")
     except ValueError:
-        print("Entrada inválida. Por favor ingresa un número entero.")
+        print("Invalid input. Please enter an integer.")
 
 # Elegir modo: cifrar o descifrar
 while True:
@@ -42,4 +42,4 @@ while True:
         print("Decrypted text:", decrypted)
         break
     else:
-        print("Modo inválido. Escribe 'E' para cifrar o 'D' para descifrar.")
+        print("Invalid mode. Type 'E' to encrypt or 'D' to decrypt.")
